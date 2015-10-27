@@ -1,0 +1,59 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}CTangoInterfaceApp Class Reference}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Constructor \& Destructor Documentation}{5}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}CTangoInterfaceApp}{5}{subsubsection.3.1.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Member Function Documentation}{5}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}InitInstance}{5}{subsubsection.3.1.2.1}
+\contentsline {section}{\numberline {3.2}TangoInterface Class Reference}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Constructor \& Destructor Documentation}{7}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}TangoInterface}{7}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}$\sim $TangoInterface}{7}{subsubsection.3.2.1.2}
+\contentsline {subsection}{\numberline {3.2.2}Member Function Documentation}{7}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}GetErrorMessage}{7}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}SetMotorSpeed}{8}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}GetMotorPosition}{8}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}EnableMotor}{8}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}JogMotor}{8}{subsubsection.3.2.2.5}
+\contentsline {subsubsection}{\numberline {3.2.2.6}GetHomingStatus}{9}{subsubsection.3.2.2.6}
+\contentsline {subsubsection}{\numberline {3.2.2.7}Home}{9}{subsubsection.3.2.2.7}
+\contentsline {subsubsection}{\numberline {3.2.2.8}MoveMotor}{9}{subsubsection.3.2.2.8}
+\contentsline {subsubsection}{\numberline {3.2.2.9}SetVariable}{10}{subsubsection.3.2.2.9}
+\contentsline {subsubsection}{\numberline {3.2.2.10}SetVariable}{10}{subsubsection.3.2.2.10}
+\contentsline {subsubsection}{\numberline {3.2.2.11}SetVariable}{10}{subsubsection.3.2.2.11}
+\contentsline {subsubsection}{\numberline {3.2.2.12}SetVariable}{10}{subsubsection.3.2.2.12}
+\contentsline {subsubsection}{\numberline {3.2.2.13}GetVariableFloat}{11}{subsubsection.3.2.2.13}
+\contentsline {subsubsection}{\numberline {3.2.2.14}GetVariableInt}{11}{subsubsection.3.2.2.14}
+\contentsline {subsubsection}{\numberline {3.2.2.15}GetVariableString}{11}{subsubsection.3.2.2.15}
+\contentsline {subsubsection}{\numberline {3.2.2.16}GetVariableBool}{12}{subsubsection.3.2.2.16}
+\contentsline {subsubsection}{\numberline {3.2.2.17}GetMotorVariableFloat}{12}{subsubsection.3.2.2.17}
+\contentsline {subsubsection}{\numberline {3.2.2.18}GetMotorVariableInt}{12}{subsubsection.3.2.2.18}
+\contentsline {subsubsection}{\numberline {3.2.2.19}GetMotorVariableString}{13}{subsubsection.3.2.2.19}
+\contentsline {subsubsection}{\numberline {3.2.2.20}GetMotorVariableBool}{13}{subsubsection.3.2.2.20}
+\contentsline {subsubsection}{\numberline {3.2.2.21}GetMotorAttributeStrings}{13}{subsubsection.3.2.2.21}
+\contentsline {chapter}{\numberline {4}File Documentation}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/Resource.h File Reference}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/stdafx.cpp File Reference}{16}{section.4.2}
+\contentsline {section}{\numberline {4.3}/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/stdafx.h File Reference}{17}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Define Documentation}{17}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}\_\discretionary {-}{}{}ATL\_\discretionary {-}{}{}CSTRING\_\discretionary {-}{}{}EXPLICIT\_\discretionary {-}{}{}CONSTRUCTORS}{17}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}VC\_\discretionary {-}{}{}EXTRALEAN}{17}{subsubsection.4.3.1.2}
+\contentsline {section}{\numberline {4.4}/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterface.cpp File Reference}{18}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Define Documentation}{18}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}NUM\_\discretionary {-}{}{}STRINGS}{18}{subsubsection.4.4.1.1}
+\contentsline {section}{\numberline {4.5}/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterface.h File Reference}{19}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Enumeration Type Documentation}{19}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}TANGO\_\discretionary {-}{}{}ATTRIBUTES}{19}{subsubsection.4.5.1.1}
+\contentsline {section}{\numberline {4.6}/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterfaceApp.cpp File Reference}{21}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Variable Documentation}{21}{subsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.1.1}theApp}{21}{subsubsection.4.6.1.1}
+\contentsline {section}{\numberline {4.7}/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterfaceApp.h File Reference}{22}{section.4.7}
+\contentsline {section}{\numberline {4.8}/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/targetver.h File Reference}{23}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Define Documentation}{23}{subsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.1.1}\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}IE}{23}{subsubsection.4.8.1.1}
+\contentsline {subsubsection}{\numberline {4.8.1.2}\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINDOWS}{23}{subsubsection.4.8.1.2}
+\contentsline {subsubsection}{\numberline {4.8.1.3}\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINNT}{23}{subsubsection.4.8.1.3}
+\contentsline {subsubsection}{\numberline {4.8.1.4}WINVER}{23}{subsubsection.4.8.1.4}

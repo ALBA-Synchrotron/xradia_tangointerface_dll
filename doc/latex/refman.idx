@@ -1,0 +1,94 @@
+\indexentry{CTangoInterfaceApp@{CTangoInterfaceApp}|hyperpage}{5}
+\indexentry{CTangoInterfaceApp@{CTangoInterfaceApp}!CTangoInterfaceApp@{CTangoInterfaceApp}|hyperpage}{5}
+\indexentry{CTangoInterfaceApp@{CTangoInterfaceApp}!CTangoInterfaceApp@{CTangoInterfaceApp}|hyperpage}{5}
+\indexentry{CTangoInterfaceApp@{CTangoInterfaceApp}!InitInstance@{InitInstance}|hyperpage}{5}
+\indexentry{InitInstance@{InitInstance}!CTangoInterfaceApp@{CTangoInterfaceApp}|hyperpage}{5}
+\indexentry{TangoInterface@{TangoInterface}|hyperpage}{6}
+\indexentry{TangoInterface@{TangoInterface}!TangoInterface@{TangoInterface}|hyperpage}{7}
+\indexentry{TangoInterface@{TangoInterface}!TangoInterface@{TangoInterface}|hyperpage}{7}
+\indexentry{TangoInterface@{TangoInterface}!$\sim $TangoInterface@{$\sim $TangoInterface}|hyperpage}{7}
+\indexentry{$\sim $TangoInterface@{$\sim $TangoInterface}!TangoInterface@{TangoInterface}|hyperpage}{7}
+\indexentry{TangoInterface@{TangoInterface}!GetErrorMessage@{GetErrorMessage}|hyperpage}{7}
+\indexentry{GetErrorMessage@{GetErrorMessage}!TangoInterface@{TangoInterface}|hyperpage}{7}
+\indexentry{TangoInterface@{TangoInterface}!SetMotorSpeed@{SetMotorSpeed}|hyperpage}{8}
+\indexentry{SetMotorSpeed@{SetMotorSpeed}!TangoInterface@{TangoInterface}|hyperpage}{8}
+\indexentry{TangoInterface@{TangoInterface}!GetMotorPosition@{GetMotorPosition}|hyperpage}{8}
+\indexentry{GetMotorPosition@{GetMotorPosition}!TangoInterface@{TangoInterface}|hyperpage}{8}
+\indexentry{TangoInterface@{TangoInterface}!EnableMotor@{EnableMotor}|hyperpage}{8}
+\indexentry{EnableMotor@{EnableMotor}!TangoInterface@{TangoInterface}|hyperpage}{8}
+\indexentry{TangoInterface@{TangoInterface}!JogMotor@{JogMotor}|hyperpage}{8}
+\indexentry{JogMotor@{JogMotor}!TangoInterface@{TangoInterface}|hyperpage}{8}
+\indexentry{TangoInterface@{TangoInterface}!GetHomingStatus@{GetHomingStatus}|hyperpage}{9}
+\indexentry{GetHomingStatus@{GetHomingStatus}!TangoInterface@{TangoInterface}|hyperpage}{9}
+\indexentry{TangoInterface@{TangoInterface}!Home@{Home}|hyperpage}{9}
+\indexentry{Home@{Home}!TangoInterface@{TangoInterface}|hyperpage}{9}
+\indexentry{TangoInterface@{TangoInterface}!MoveMotor@{MoveMotor}|hyperpage}{9}
+\indexentry{MoveMotor@{MoveMotor}!TangoInterface@{TangoInterface}|hyperpage}{9}
+\indexentry{TangoInterface@{TangoInterface}!SetVariable@{SetVariable}|hyperpage}{9}
+\indexentry{SetVariable@{SetVariable}!TangoInterface@{TangoInterface}|hyperpage}{9}
+\indexentry{TangoInterface@{TangoInterface}!SetVariable@{SetVariable}|hyperpage}{10}
+\indexentry{SetVariable@{SetVariable}!TangoInterface@{TangoInterface}|hyperpage}{10}
+\indexentry{TangoInterface@{TangoInterface}!SetVariable@{SetVariable}|hyperpage}{10}
+\indexentry{SetVariable@{SetVariable}!TangoInterface@{TangoInterface}|hyperpage}{10}
+\indexentry{TangoInterface@{TangoInterface}!SetVariable@{SetVariable}|hyperpage}{10}
+\indexentry{SetVariable@{SetVariable}!TangoInterface@{TangoInterface}|hyperpage}{10}
+\indexentry{TangoInterface@{TangoInterface}!GetVariableFloat@{GetVariableFloat}|hyperpage}{11}
+\indexentry{GetVariableFloat@{GetVariableFloat}!TangoInterface@{TangoInterface}|hyperpage}{11}
+\indexentry{TangoInterface@{TangoInterface}!GetVariableInt@{GetVariableInt}|hyperpage}{11}
+\indexentry{GetVariableInt@{GetVariableInt}!TangoInterface@{TangoInterface}|hyperpage}{11}
+\indexentry{TangoInterface@{TangoInterface}!GetVariableString@{GetVariableString}|hyperpage}{11}
+\indexentry{GetVariableString@{GetVariableString}!TangoInterface@{TangoInterface}|hyperpage}{11}
+\indexentry{TangoInterface@{TangoInterface}!GetVariableBool@{GetVariableBool}|hyperpage}{11}
+\indexentry{GetVariableBool@{GetVariableBool}!TangoInterface@{TangoInterface}|hyperpage}{11}
+\indexentry{TangoInterface@{TangoInterface}!GetMotorVariableFloat@{GetMotorVariableFloat}|hyperpage}{12}
+\indexentry{GetMotorVariableFloat@{GetMotorVariableFloat}!TangoInterface@{TangoInterface}|hyperpage}{12}
+\indexentry{TangoInterface@{TangoInterface}!GetMotorVariableInt@{GetMotorVariableInt}|hyperpage}{12}
+\indexentry{GetMotorVariableInt@{GetMotorVariableInt}!TangoInterface@{TangoInterface}|hyperpage}{12}
+\indexentry{TangoInterface@{TangoInterface}!GetMotorVariableString@{GetMotorVariableString}|hyperpage}{12}
+\indexentry{GetMotorVariableString@{GetMotorVariableString}!TangoInterface@{TangoInterface}|hyperpage}{12}
+\indexentry{TangoInterface@{TangoInterface}!GetMotorVariableBool@{GetMotorVariableBool}|hyperpage}{13}
+\indexentry{GetMotorVariableBool@{GetMotorVariableBool}!TangoInterface@{TangoInterface}|hyperpage}{13}
+\indexentry{TangoInterface@{TangoInterface}!GetMotorAttributeStrings@{GetMotorAttributeStrings}|hyperpage}{13}
+\indexentry{GetMotorAttributeStrings@{GetMotorAttributeStrings}!TangoInterface@{TangoInterface}|hyperpage}{13}
+\indexentry{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/Resource.h@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/Resource.h}|hyperpage}{15}
+\indexentry{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/stdafx.cpp@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/stdafx.cpp}|hyperpage}{16}
+\indexentry{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/stdafx.h@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/stdafx.h}|hyperpage}{17}
+\indexentry{stdafx.h@{stdafx.h}!\_\discretionary {-}{}{}ATL\_\discretionary {-}{}{}CSTRING\_\discretionary {-}{}{}EXPLICIT\_\discretionary {-}{}{}CONSTRUCTORS@{\_\discretionary {-}{}{}ATL\_\discretionary {-}{}{}CSTRING\_\discretionary {-}{}{}EXPLICIT\_\discretionary {-}{}{}CONSTRUCTORS}|hyperpage}{17}
+\indexentry{\_\discretionary {-}{}{}ATL\_\discretionary {-}{}{}CSTRING\_\discretionary {-}{}{}EXPLICIT\_\discretionary {-}{}{}CONSTRUCTORS@{\_\discretionary {-}{}{}ATL\_\discretionary {-}{}{}CSTRING\_\discretionary {-}{}{}EXPLICIT\_\discretionary {-}{}{}CONSTRUCTORS}!stdafx.h@{stdafx.h}|hyperpage}{17}
+\indexentry{stdafx.h@{stdafx.h}!VC\_\discretionary {-}{}{}EXTRALEAN@{VC\_\discretionary {-}{}{}EXTRALEAN}|hyperpage}{17}
+\indexentry{VC\_\discretionary {-}{}{}EXTRALEAN@{VC\_\discretionary {-}{}{}EXTRALEAN}!stdafx.h@{stdafx.h}|hyperpage}{17}
+\indexentry{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterface.cpp@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterface.cpp}|hyperpage}{18}
+\indexentry{TangoInterface.cpp@{TangoInterface.cpp}!NUM\_\discretionary {-}{}{}STRINGS@{NUM\_\discretionary {-}{}{}STRINGS}|hyperpage}{18}
+\indexentry{NUM\_\discretionary {-}{}{}STRINGS@{NUM\_\discretionary {-}{}{}STRINGS}!TangoInterface.cpp@{TangoInterface.cpp}|hyperpage}{18}
+\indexentry{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterface.h@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterface.h}|hyperpage}{19}
+\indexentry{TangoInterface.h@{TangoInterface.h}!TANGO\_\discretionary {-}{}{}ATTRIBUTES@{TANGO\_\discretionary {-}{}{}ATTRIBUTES}|hyperpage}{19}
+\indexentry{TANGO\_\discretionary {-}{}{}ATTRIBUTES@{TANGO\_\discretionary {-}{}{}ATTRIBUTES}!TangoInterface.h@{TangoInterface.h}|hyperpage}{19}
+\indexentry{NEG\_\-LIMIT@{NEG\_\-LIMIT}!TangoInterface.h@{TangoInterface.h}|hyperpage}{19}
+\indexentry{TangoInterface.h@{TangoInterface.h}!NEG\_\-LIMIT@{NEG\_\-LIMIT}|hyperpage}{19}
+\indexentry{POS\_\-LIMIT@{POS\_\-LIMIT}!TangoInterface.h@{TangoInterface.h}|hyperpage}{19}
+\indexentry{TangoInterface.h@{TangoInterface.h}!POS\_\-LIMIT@{POS\_\-LIMIT}|hyperpage}{19}
+\indexentry{IN\_\-POS@{IN\_\-POS}!TangoInterface.h@{TangoInterface.h}|hyperpage}{19}
+\indexentry{TangoInterface.h@{TangoInterface.h}!IN\_\-POS@{IN\_\-POS}|hyperpage}{19}
+\indexentry{FOLLOWING\_\-ERROR@{FOLLOWING\_\-ERROR}!TangoInterface.h@{TangoInterface.h}|hyperpage}{19}
+\indexentry{TangoInterface.h@{TangoInterface.h}!FOLLOWING\_\-ERROR@{FOLLOWING\_\-ERROR}|hyperpage}{19}
+\indexentry{ENABLED@{ENABLED}!TangoInterface.h@{TangoInterface.h}|hyperpage}{19}
+\indexentry{TangoInterface.h@{TangoInterface.h}!ENABLED@{ENABLED}|hyperpage}{19}
+\indexentry{MOTOR\_\-POSITION@{MOTOR\_\-POSITION}!TangoInterface.h@{TangoInterface.h}|hyperpage}{19}
+\indexentry{TangoInterface.h@{TangoInterface.h}!MOTOR\_\-POSITION@{MOTOR\_\-POSITION}|hyperpage}{19}
+\indexentry{SET\_\-VELO@{SET\_\-VELO}!TangoInterface.h@{TangoInterface.h}|hyperpage}{19}
+\indexentry{TangoInterface.h@{TangoInterface.h}!SET\_\-VELO@{SET\_\-VELO}|hyperpage}{19}
+\indexentry{CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM@{CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM}!TangoInterface.h@{TangoInterface.h}|hyperpage}{20}
+\indexentry{TangoInterface.h@{TangoInterface.h}!CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM@{CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM}|hyperpage}{20}
+\indexentry{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterfaceApp.cpp@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterfaceApp.cpp}|hyperpage}{21}
+\indexentry{TangoInterfaceApp.cpp@{TangoInterfaceApp.cpp}!theApp@{theApp}|hyperpage}{21}
+\indexentry{theApp@{theApp}!TangoInterfaceApp.cpp@{TangoInterfaceApp.cpp}|hyperpage}{21}
+\indexentry{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterfaceApp.h@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterfaceApp.h}|hyperpage}{22}
+\indexentry{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/targetver.h@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/targetver.h}|hyperpage}{23}
+\indexentry{targetver.h@{targetver.h}!\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}IE@{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}IE}|hyperpage}{23}
+\indexentry{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}IE@{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}IE}!targetver.h@{targetver.h}|hyperpage}{23}
+\indexentry{targetver.h@{targetver.h}!\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINDOWS@{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINDOWS}|hyperpage}{23}
+\indexentry{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINDOWS@{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINDOWS}!targetver.h@{targetver.h}|hyperpage}{23}
+\indexentry{targetver.h@{targetver.h}!\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINNT@{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINNT}|hyperpage}{23}
+\indexentry{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINNT@{\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINNT}!targetver.h@{targetver.h}|hyperpage}{23}
+\indexentry{targetver.h@{targetver.h}!WINVER@{WINVER}|hyperpage}{23}
+\indexentry{WINVER@{WINVER}!targetver.h@{targetver.h}|hyperpage}{23}

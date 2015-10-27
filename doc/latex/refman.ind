@@ -1,0 +1,174 @@
+\begin{theindex}
+
+  \item {$\sim $TangoInterface}
+    \subitem {TangoInterface}, \hyperpage{7}
+  \item {/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/Resource.h}, \hyperpage{15}
+  \item {/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterface.cpp}, \hyperpage{18}
+  \item {/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterface.h}, \hyperpage{19}
+  \item {/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterfaceApp.cpp}, \hyperpage{21}
+  \item {/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/TangoInterfaceApp.h}, \hyperpage{22}
+  \item {/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/stdafx.cpp}, \hyperpage{16}
+  \item {/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/stdafx.h}, \hyperpage{17}
+  \item {/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\discretionary {-}{}{}20091201/targetver.h}, \hyperpage{23}
+  \item {\_\discretionary {-}{}{}ATL\_\discretionary {-}{}{}CSTRING\_\discretionary {-}{}{}EXPLICIT\_\discretionary {-}{}{}CONSTRUCTORS}
+    \subitem {stdafx.h}, \hyperpage{17}
+  \item {\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}IE}
+    \subitem {targetver.h}, \hyperpage{23}
+  \item {\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINDOWS}
+    \subitem {targetver.h}, \hyperpage{23}
+  \item {\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINNT}
+    \subitem {targetver.h}, \hyperpage{23}
+
+  \indexspace
+
+  \item {CTangoInterfaceApp}, \hyperpage{5}
+    \subitem {CTangoInterfaceApp}, \hyperpage{5}
+    \subitem {InitInstance}, \hyperpage{5}
+  \item {CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM}
+    \subitem {TangoInterface.h}, \hyperpage{20}
+
+  \indexspace
+
+  \item {ENABLED}
+    \subitem {TangoInterface.h}, \hyperpage{20}
+  \item {EnableMotor}
+    \subitem {TangoInterface}, \hyperpage{8}
+
+  \indexspace
+
+  \item {FOLLOWING\_\-ERROR}
+    \subitem {TangoInterface.h}, \hyperpage{20}
+
+  \indexspace
+
+  \item {GetErrorMessage}
+    \subitem {TangoInterface}, \hyperpage{7}
+  \item {GetHomingStatus}
+    \subitem {TangoInterface}, \hyperpage{9}
+  \item {GetMotorAttributeStrings}
+    \subitem {TangoInterface}, \hyperpage{14}
+  \item {GetMotorPosition}
+    \subitem {TangoInterface}, \hyperpage{8}
+  \item {GetMotorVariableBool}
+    \subitem {TangoInterface}, \hyperpage{13}
+  \item {GetMotorVariableFloat}
+    \subitem {TangoInterface}, \hyperpage{12}
+  \item {GetMotorVariableInt}
+    \subitem {TangoInterface}, \hyperpage{13}
+  \item {GetMotorVariableString}
+    \subitem {TangoInterface}, \hyperpage{13}
+  \item {GetVariableBool}
+    \subitem {TangoInterface}, \hyperpage{12}
+  \item {GetVariableFloat}
+    \subitem {TangoInterface}, \hyperpage{11}
+  \item {GetVariableInt}
+    \subitem {TangoInterface}, \hyperpage{11}
+  \item {GetVariableString}
+    \subitem {TangoInterface}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Home}
+    \subitem {TangoInterface}, \hyperpage{9}
+
+  \indexspace
+
+  \item {IN\_\-POS}
+    \subitem {TangoInterface.h}, \hyperpage{20}
+  \item {InitInstance}
+    \subitem {CTangoInterfaceApp}, \hyperpage{5}
+
+  \indexspace
+
+  \item {JogMotor}
+    \subitem {TangoInterface}, \hyperpage{9}
+
+  \indexspace
+
+  \item {MOTOR\_\-POSITION}
+    \subitem {TangoInterface.h}, \hyperpage{20}
+  \item {MoveMotor}
+    \subitem {TangoInterface}, \hyperpage{10}
+
+  \indexspace
+
+  \item {NEG\_\-LIMIT}
+    \subitem {TangoInterface.h}, \hyperpage{19}
+  \item {NUM\_\discretionary {-}{}{}STRINGS}
+    \subitem {TangoInterface.cpp}, \hyperpage{18}
+
+  \indexspace
+
+  \item {POS\_\-LIMIT}
+    \subitem {TangoInterface.h}, \hyperpage{19}
+
+  \indexspace
+
+  \item {SET\_\-VELO}
+    \subitem {TangoInterface.h}, \hyperpage{20}
+  \item {SetMotorSpeed}
+    \subitem {TangoInterface}, \hyperpage{8}
+  \item {SetVariable}
+    \subitem {TangoInterface}, \hyperpage{10, 11}
+  \item {stdafx.h}
+    \subitem {\_\discretionary {-}{}{}ATL\_\discretionary {-}{}{}CSTRING\_\discretionary {-}{}{}EXPLICIT\_\discretionary {-}{}{}CONSTRUCTORS}, \hyperpage{17}
+    \subitem {VC\_\discretionary {-}{}{}EXTRALEAN}, \hyperpage{17}
+
+  \indexspace
+
+  \item {TANGO\_\discretionary {-}{}{}ATTRIBUTES}
+    \subitem {TangoInterface.h}, \hyperpage{19}
+  \item {TangoInterface}, \hyperpage{6}
+    \subitem {$\sim $TangoInterface}, \hyperpage{7}
+    \subitem {EnableMotor}, \hyperpage{8}
+    \subitem {GetErrorMessage}, \hyperpage{7}
+    \subitem {GetHomingStatus}, \hyperpage{9}
+    \subitem {GetMotorAttributeStrings}, \hyperpage{14}
+    \subitem {GetMotorPosition}, \hyperpage{8}
+    \subitem {GetMotorVariableBool}, \hyperpage{13}
+    \subitem {GetMotorVariableFloat}, \hyperpage{12}
+    \subitem {GetMotorVariableInt}, \hyperpage{13}
+    \subitem {GetMotorVariableString}, \hyperpage{13}
+    \subitem {GetVariableBool}, \hyperpage{12}
+    \subitem {GetVariableFloat}, \hyperpage{11}
+    \subitem {GetVariableInt}, \hyperpage{11}
+    \subitem {GetVariableString}, \hyperpage{12}
+    \subitem {Home}, \hyperpage{9}
+    \subitem {JogMotor}, \hyperpage{9}
+    \subitem {MoveMotor}, \hyperpage{10}
+    \subitem {SetMotorSpeed}, \hyperpage{8}
+    \subitem {SetVariable}, \hyperpage{10, 11}
+    \subitem {TangoInterface}, \hyperpage{7}
+  \item {TangoInterface.cpp}
+    \subitem {NUM\_\discretionary {-}{}{}STRINGS}, \hyperpage{18}
+  \item {TangoInterface.h}
+    \subitem {CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM}, \hyperpage{20}
+    \subitem {ENABLED}, \hyperpage{20}
+    \subitem {FOLLOWING\_\-ERROR}, \hyperpage{20}
+    \subitem {IN\_\-POS}, \hyperpage{20}
+    \subitem {MOTOR\_\-POSITION}, \hyperpage{20}
+    \subitem {NEG\_\-LIMIT}, \hyperpage{19}
+    \subitem {POS\_\-LIMIT}, \hyperpage{19}
+    \subitem {SET\_\-VELO}, \hyperpage{20}
+    \subitem {TANGO\_\discretionary {-}{}{}ATTRIBUTES}, \hyperpage{19}
+  \item {TangoInterfaceApp.cpp}
+    \subitem {theApp}, \hyperpage{21}
+  \item {targetver.h}
+    \subitem {\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}IE}, \hyperpage{23}
+    \subitem {\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINDOWS}, \hyperpage{23}
+    \subitem {\_\discretionary {-}{}{}WIN32\_\discretionary {-}{}{}WINNT}, \hyperpage{23}
+    \subitem {WINVER}, \hyperpage{23}
+  \item {theApp}
+    \subitem {TangoInterfaceApp.cpp}, \hyperpage{21}
+
+  \indexspace
+
+  \item {VC\_\discretionary {-}{}{}EXTRALEAN}
+    \subitem {stdafx.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {WINVER}
+    \subitem {targetver.h}, \hyperpage{23}
+
+\end{theindex}

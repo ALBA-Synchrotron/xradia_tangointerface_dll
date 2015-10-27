@@ -1,0 +1,499 @@
+\hypertarget{classTangoInterface}{
+\section{TangoInterface Class Reference}
+\label{classTangoInterface}\index{TangoInterface@{TangoInterface}}
+}
+{\tt \#include $<$TangoInterface.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{classTangoInterface_075eeb694387d0a1621cfdcfe06d222f}{TangoInterface} (void)
+\begin{CompactList}\small\item\em Default constructor. \item\end{CompactList}\item 
+\hyperlink{classTangoInterface_6af2d055005412be8ad30be0eada083b}{$\sim$TangoInterface} (void)
+\begin{CompactList}\small\item\em Destructor. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_e4c5af1c2055bdd253eddce0babd9158}{GetErrorMessage} (CString \&strErrorMsg)
+\begin{CompactList}\small\item\em Gets an error message. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_45f902f0d486ff896b49de74d2e60a02}{SetMotorSpeed} (CString strMotorIdentifier, float fSpeed)
+\begin{CompactList}\small\item\em Sets the motor speed. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_c14b1a6b2d195d30a26b02fdffd81428}{GetMotorPosition} (CString strMotorIdentifier, float \&fPosition)
+\begin{CompactList}\small\item\em Gets the motor position. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_e7b82506f5a1c901fd7f5e0843841c7d}{EnableMotor} (CString strMotorIdentifier, bool bEnable)
+\begin{CompactList}\small\item\em Enables the motor. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_ab781c1b152882cff163edd81407033f}{JogMotor} (CString strMotorIdentifier, bool bMovePositive)
+\begin{CompactList}\small\item\em Jog motor. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_98190a21946b4aa04b7d4b12ababa768}{GetHomingStatus} (CString strMotorIdentifier, int \&nHomingStatus)
+\begin{CompactList}\small\item\em Get the homing status. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_e6da63765a09f8c53a8537faee7f63b5}{Home} (CString strMotorIdentifier)
+\begin{CompactList}\small\item\em Issues the Home command. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_9db5a121d918ac94527d5e3fc635d002}{MoveMotor} (CString strMotorIdentifier, float fPosition)
+\begin{CompactList}\small\item\em Move motor. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_c37a6c8ebf341566b1cba2ce56630811}{SetVariable} (CString strVariableName, CString strValue)
+\begin{CompactList}\small\item\em Sets a variable. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_ded717121a0c221a3b7528d221d24657}{SetVariable} (CString strVariableName, int nValue)
+\begin{CompactList}\small\item\em Sets a variable. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_bbad345c34f9c25f013be3bbc02cfe96}{SetVariable} (CString strVariableName, float fValue)
+\begin{CompactList}\small\item\em Sets a variable. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_d99eec46ef2205c72d4dc562154f6474}{SetVariable} (CString strVariableName, bool bValue)
+\begin{CompactList}\small\item\em Sets a variable. \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_f981459258550748b98541a18c6e8f54}{GetVariableFloat} (CString strVariableName, float \&fValue)
+\begin{CompactList}\small\item\em Gets a variable (float version). \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_ea841d48dfb2d66019268beda8ba2da5}{GetVariableInt} (CString strVariableName, int \&nValue)
+\begin{CompactList}\small\item\em Gets a variable (integer version). \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_90bceaea83a14b34d3a6c4dca7f5756b}{GetVariableString} (CString strVariableName, CString \&strReturn)
+\begin{CompactList}\small\item\em Gets a variable (string version). \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_92743acefced68c408d846813dba4697}{GetVariableBool} (CString strVariableName, bool \&bValue)
+\begin{CompactList}\small\item\em Gets a variable (boolean version). \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_c2f7cbbe72be043cbadf73a8bf23654d}{GetMotorVariableFloat} (CString strMotorIdentifier, CString strVariableName, float \&fValue)
+\begin{CompactList}\small\item\em Get a motor variable (float version). \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_22a22602be1fef00ab7376be40b58ff4}{GetMotorVariableInt} (CString strMotorIdentifier, CString strVariableName, int \&nValue)
+\begin{CompactList}\small\item\em Get a motor variable (integer version). \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_2d5610cce92ea977ad74202219b1a0af}{GetMotorVariableString} (CString strMotorIdentifier, CString strVariableName, CString \&strReturn)
+\begin{CompactList}\small\item\em Get a motor variable (string version). \item\end{CompactList}\item 
+bool \hyperlink{classTangoInterface_8b0eb830867b7d62dc4350b49b430705}{GetMotorVariableBool} (CString strMotorIdentifier, CString strVariableName, bool \&bValue)
+\begin{CompactList}\small\item\em Get a motor variable (boolean version). \item\end{CompactList}\item 
+int \hyperlink{classTangoInterface_78ab845a344c3d140cbeef3da653ca29}{GetMotorAttributeStrings} (CString $\ast$\&pstrVariableNames, int nNumAttributes)
+\begin{CompactList}\small\item\em Gets a specified list of motor variable names. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classTangoInterface_075eeb694387d0a1621cfdcfe06d222f}{
+\index{TangoInterface@{TangoInterface}!TangoInterface@{TangoInterface}}
+\index{TangoInterface@{TangoInterface}!TangoInterface@{TangoInterface}}
+\subsubsection[TangoInterface]{\setlength{\rightskip}{0pt plus 5cm}TangoInterface::TangoInterface (void)}}
+\label{classTangoInterface_075eeb694387d0a1621cfdcfe06d222f}
+
+
+Default constructor. 
+
+\hypertarget{classTangoInterface_6af2d055005412be8ad30be0eada083b}{
+\index{TangoInterface@{TangoInterface}!$\sim$TangoInterface@{$\sim$TangoInterface}}
+\index{$\sim$TangoInterface@{$\sim$TangoInterface}!TangoInterface@{TangoInterface}}
+\subsubsection[$\sim$TangoInterface]{\setlength{\rightskip}{0pt plus 5cm}TangoInterface::$\sim$TangoInterface (void)}}
+\label{classTangoInterface_6af2d055005412be8ad30be0eada083b}
+
+
+Destructor. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classTangoInterface_e4c5af1c2055bdd253eddce0babd9158}{
+\index{TangoInterface@{TangoInterface}!GetErrorMessage@{GetErrorMessage}}
+\index{GetErrorMessage@{GetErrorMessage}!TangoInterface@{TangoInterface}}
+\subsubsection[GetErrorMessage]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetErrorMessage (CString \& {\em strErrorMsg})}}
+\label{classTangoInterface_e4c5af1c2055bdd253eddce0babd9158}
+
+
+Gets an error message. 
+
+Will return an error string describing the most recent failure.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strErrorMsg}]CString to recieve the error message string. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_45f902f0d486ff896b49de74d2e60a02}{
+\index{TangoInterface@{TangoInterface}!SetMotorSpeed@{SetMotorSpeed}}
+\index{SetMotorSpeed@{SetMotorSpeed}!TangoInterface@{TangoInterface}}
+\subsubsection[SetMotorSpeed]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::SetMotorSpeed (CString {\em strMotorIdentifier}, \/  float {\em fSpeed})}}
+\label{classTangoInterface_45f902f0d486ff896b49de74d2e60a02}
+
+
+Sets the motor speed. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em fSpeed}]The speed value to set in counts per second. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_c14b1a6b2d195d30a26b02fdffd81428}{
+\index{TangoInterface@{TangoInterface}!GetMotorPosition@{GetMotorPosition}}
+\index{GetMotorPosition@{GetMotorPosition}!TangoInterface@{TangoInterface}}
+\subsubsection[GetMotorPosition]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetMotorPosition (CString {\em strMotorIdentifier}, \/  float \& {\em fPosition})}}
+\label{classTangoInterface_c14b1a6b2d195d30a26b02fdffd81428}
+
+
+Gets the motor position. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em fPosition}]The motor position in counts. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_e7b82506f5a1c901fd7f5e0843841c7d}{
+\index{TangoInterface@{TangoInterface}!EnableMotor@{EnableMotor}}
+\index{EnableMotor@{EnableMotor}!TangoInterface@{TangoInterface}}
+\subsubsection[EnableMotor]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::EnableMotor (CString {\em strMotorIdentifier}, \/  bool {\em bEnable})}}
+\label{classTangoInterface_e7b82506f5a1c901fd7f5e0843841c7d}
+
+
+Enables the motor. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em bEnable}]true to enable it, false to disable it. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_ab781c1b152882cff163edd81407033f}{
+\index{TangoInterface@{TangoInterface}!JogMotor@{JogMotor}}
+\index{JogMotor@{JogMotor}!TangoInterface@{TangoInterface}}
+\subsubsection[JogMotor]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::JogMotor (CString {\em strMotorIdentifier}, \/  bool {\em bMovePositive})}}
+\label{classTangoInterface_ab781c1b152882cff163edd81407033f}
+
+
+Jog motor. 
+
+This will cause the motor of interest to jog continuously in the specified direction.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em bMovePositive}]Direction to Jog. True for Positive, False for negative. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_98190a21946b4aa04b7d4b12ababa768}{
+\index{TangoInterface@{TangoInterface}!GetHomingStatus@{GetHomingStatus}}
+\index{GetHomingStatus@{GetHomingStatus}!TangoInterface@{TangoInterface}}
+\subsubsection[GetHomingStatus]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetHomingStatus (CString {\em strMotorIdentifier}, \/  int \& {\em nHomingStatus})}}
+\label{classTangoInterface_98190a21946b4aa04b7d4b12ababa768}
+
+
+Get the homing status. 
+
+Minimum necessary implemenation requires this function to return values 0 and 15. These corresponds to \char`\"{}homing not started\char`\"{} and \char`\"{}homing complete\char`\"{}. If the motor does not require or allow homing this function, this function should return 15, home complete. /remarks$>$ \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em nHomingStatus}]The homing status defined by the values 0-17 with the following definitions: HomingRoutineNotStartedYet = 0, WaitingforOther = 1, MovingToLimit = 2, IsAtLimit = 3, MovingToCoarseHome = 4, MovingToFixedOffset = 5, MovingToFineHome = 6, IsAtHome = 7, MovingToAlignedPos = 8, FollowedoutOnCoarse = 9, FollowedoutOnFixedOffset = 10, FollowedoutOnFineHome = 11, FollowedoutOnAlignedPos = 12, HitLimitOnFineHome = 13, HitLimitOnAlignedPos = 14, HomeComplete = 15, GeneralError = 16, PreconditionNotMet = 17 \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_e6da63765a09f8c53a8537faee7f63b5}{
+\index{TangoInterface@{TangoInterface}!Home@{Home}}
+\index{Home@{Home}!TangoInterface@{TangoInterface}}
+\subsubsection[Home]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::Home (CString {\em strMotorIdentifier})}}
+\label{classTangoInterface_e6da63765a09f8c53a8537faee7f63b5}
+
+
+Issues the Home command. 
+
+This command will cause the specified motor to initiate the homing process. If the motor does not require or allow homing this function, this function should return true.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_9db5a121d918ac94527d5e3fc635d002}{
+\index{TangoInterface@{TangoInterface}!MoveMotor@{MoveMotor}}
+\index{MoveMotor@{MoveMotor}!TangoInterface@{TangoInterface}}
+\subsubsection[MoveMotor]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::MoveMotor (CString {\em strMotorIdentifier}, \/  float {\em fPosition})}}
+\label{classTangoInterface_9db5a121d918ac94527d5e3fc635d002}
+
+
+Move motor. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em fPosition}]The ABSOLUTE position in counts. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_c37a6c8ebf341566b1cba2ce56630811}{
+\index{TangoInterface@{TangoInterface}!SetVariable@{SetVariable}}
+\index{SetVariable@{SetVariable}!TangoInterface@{TangoInterface}}
+\subsubsection[SetVariable]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::SetVariable (CString {\em strVariableName}, \/  CString {\em strValue})}}
+\label{classTangoInterface_c37a6c8ebf341566b1cba2ce56630811}
+
+
+Sets a variable. 
+
+Sets the specified variable to the specified value.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strVariableName}]The variable name. \item[{\em strValue}]The value as a string. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_ded717121a0c221a3b7528d221d24657}{
+\index{TangoInterface@{TangoInterface}!SetVariable@{SetVariable}}
+\index{SetVariable@{SetVariable}!TangoInterface@{TangoInterface}}
+\subsubsection[SetVariable]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::SetVariable (CString {\em strVariableName}, \/  int {\em nValue})}}
+\label{classTangoInterface_ded717121a0c221a3b7528d221d24657}
+
+
+Sets a variable. 
+
+Sets the specified variable to the specified value.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strVariableName}]The variable name. \item[{\em strValue}]The value as an integer. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_bbad345c34f9c25f013be3bbc02cfe96}{
+\index{TangoInterface@{TangoInterface}!SetVariable@{SetVariable}}
+\index{SetVariable@{SetVariable}!TangoInterface@{TangoInterface}}
+\subsubsection[SetVariable]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::SetVariable (CString {\em strVariableName}, \/  float {\em fValue})}}
+\label{classTangoInterface_bbad345c34f9c25f013be3bbc02cfe96}
+
+
+Sets a variable. 
+
+Sets the specified variable to the specified value.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strVariableName}]The variable name. \item[{\em strValue}]The value as a float. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_d99eec46ef2205c72d4dc562154f6474}{
+\index{TangoInterface@{TangoInterface}!SetVariable@{SetVariable}}
+\index{SetVariable@{SetVariable}!TangoInterface@{TangoInterface}}
+\subsubsection[SetVariable]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::SetVariable (CString {\em strVariableName}, \/  bool {\em bValue})}}
+\label{classTangoInterface_d99eec46ef2205c72d4dc562154f6474}
+
+
+Sets a variable. 
+
+Sets the specified variable to the specified value.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strVariableName}]The variable name. \item[{\em strValue}]The value as a boolean. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_f981459258550748b98541a18c6e8f54}{
+\index{TangoInterface@{TangoInterface}!GetVariableFloat@{GetVariableFloat}}
+\index{GetVariableFloat@{GetVariableFloat}!TangoInterface@{TangoInterface}}
+\subsubsection[GetVariableFloat]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetVariableFloat (CString {\em strVariableName}, \/  float \& {\em fValue})}}
+\label{classTangoInterface_f981459258550748b98541a18c6e8f54}
+
+
+Gets a variable (float version). 
+
+Gets the value of the specified variable.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strVariableName}]The variable name. \item[{\em fValue}]the variable value. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_ea841d48dfb2d66019268beda8ba2da5}{
+\index{TangoInterface@{TangoInterface}!GetVariableInt@{GetVariableInt}}
+\index{GetVariableInt@{GetVariableInt}!TangoInterface@{TangoInterface}}
+\subsubsection[GetVariableInt]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetVariableInt (CString {\em strVariableName}, \/  int \& {\em nValue})}}
+\label{classTangoInterface_ea841d48dfb2d66019268beda8ba2da5}
+
+
+Gets a variable (integer version). 
+
+Gets the value of the specified variable.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strVariableName}]The variable name. \item[{\em nValue}]the variable value. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_90bceaea83a14b34d3a6c4dca7f5756b}{
+\index{TangoInterface@{TangoInterface}!GetVariableString@{GetVariableString}}
+\index{GetVariableString@{GetVariableString}!TangoInterface@{TangoInterface}}
+\subsubsection[GetVariableString]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetVariableString (CString {\em strVariableName}, \/  CString \& {\em strReturn})}}
+\label{classTangoInterface_90bceaea83a14b34d3a6c4dca7f5756b}
+
+
+Gets a variable (string version). 
+
+Gets the value of the specified variable.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strVariableName}]The variable name. \item[{\em strReturn}]The variable value. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_92743acefced68c408d846813dba4697}{
+\index{TangoInterface@{TangoInterface}!GetVariableBool@{GetVariableBool}}
+\index{GetVariableBool@{GetVariableBool}!TangoInterface@{TangoInterface}}
+\subsubsection[GetVariableBool]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetVariableBool (CString {\em strVariableName}, \/  bool \& {\em bValue})}}
+\label{classTangoInterface_92743acefced68c408d846813dba4697}
+
+
+Gets a variable (boolean version). 
+
+Gets the value of the specified variable.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strVariableName}]The variable name. \item[{\em bValue}]The variable value. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_c2f7cbbe72be043cbadf73a8bf23654d}{
+\index{TangoInterface@{TangoInterface}!GetMotorVariableFloat@{GetMotorVariableFloat}}
+\index{GetMotorVariableFloat@{GetMotorVariableFloat}!TangoInterface@{TangoInterface}}
+\subsubsection[GetMotorVariableFloat]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetMotorVariableFloat (CString {\em strMotorIdentifier}, \/  CString {\em strVariableName}, \/  float \& {\em fValue})}}
+\label{classTangoInterface_c2f7cbbe72be043cbadf73a8bf23654d}
+
+
+Get a motor variable (float version). 
+
+Get the value of the specified variable for the specified motor.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em strVariableName}]The variable name. \item[{\em fValue}]the variable value. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_22a22602be1fef00ab7376be40b58ff4}{
+\index{TangoInterface@{TangoInterface}!GetMotorVariableInt@{GetMotorVariableInt}}
+\index{GetMotorVariableInt@{GetMotorVariableInt}!TangoInterface@{TangoInterface}}
+\subsubsection[GetMotorVariableInt]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetMotorVariableInt (CString {\em strMotorIdentifier}, \/  CString {\em strVariableName}, \/  int \& {\em nValue})}}
+\label{classTangoInterface_22a22602be1fef00ab7376be40b58ff4}
+
+
+Get a motor variable (integer version). 
+
+Get the value of the specified variable for the specified motor.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em strVariableName}]The variable name. \item[{\em nValue}]the variable value. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_2d5610cce92ea977ad74202219b1a0af}{
+\index{TangoInterface@{TangoInterface}!GetMotorVariableString@{GetMotorVariableString}}
+\index{GetMotorVariableString@{GetMotorVariableString}!TangoInterface@{TangoInterface}}
+\subsubsection[GetMotorVariableString]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetMotorVariableString (CString {\em strMotorIdentifier}, \/  CString {\em strVariableName}, \/  CString \& {\em strReturn})}}
+\label{classTangoInterface_2d5610cce92ea977ad74202219b1a0af}
+
+
+Get a motor variable (string version). 
+
+Get the value of the specified variable for the specified motor.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em strVariableName}]The variable name. \item[{\em strReturn}]The variable value. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_8b0eb830867b7d62dc4350b49b430705}{
+\index{TangoInterface@{TangoInterface}!GetMotorVariableBool@{GetMotorVariableBool}}
+\index{GetMotorVariableBool@{GetMotorVariableBool}!TangoInterface@{TangoInterface}}
+\subsubsection[GetMotorVariableBool]{\setlength{\rightskip}{0pt plus 5cm}bool TangoInterface::GetMotorVariableBool (CString {\em strMotorIdentifier}, \/  CString {\em strVariableName}, \/  bool \& {\em bValue})}}
+\label{classTangoInterface_8b0eb830867b7d62dc4350b49b430705}
+
+
+Get a motor variable (boolean version). 
+
+Get the value of the specified variable for the specified motor.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strMotorIdentifier}]The motor identifier for the motor of interest.\item[{\em strVariableName}]The variable name. \item[{\em bValue}]the variable value. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]true if the command succeeds, false if the command fails. \end{Desc}
+\hypertarget{classTangoInterface_78ab845a344c3d140cbeef3da653ca29}{
+\index{TangoInterface@{TangoInterface}!GetMotorAttributeStrings@{GetMotorAttributeStrings}}
+\index{GetMotorAttributeStrings@{GetMotorAttributeStrings}!TangoInterface@{TangoInterface}}
+\subsubsection[GetMotorAttributeStrings]{\setlength{\rightskip}{0pt plus 5cm}int TangoInterface::GetMotorAttributeStrings (CString $\ast$\& {\em pstrVariableNames}, \/  int {\em nNumAttributes})}}
+\label{classTangoInterface_78ab845a344c3d140cbeef3da653ca29}
+
+
+Gets a specified list of motor variable names. 
+
+This function is used to retrieve the variable names for a specific list of motor attributes. This list is as follows, in order: 0. Negative Limit -- Variable is True when motor is at the negative-most limit 1. Positive Limit -- Variable is True when motor is at the positive-most limit 2. In Position -- Variable is True when the motor has stopped moving and it is within an error bound of its last commanded position 3. Following Error Occurred -- Variable is True when the last commanded motion was aborted due to excessive following error 4. Enabled Status -- Variable is True when motor is enabled 5. Position -- Variable contains the current motor position in counts 6. Set Velocity -- Variable contains the current motor target jog velocity
+
+The pstrVariableNames parameter should be populated with the variable names for these motor attributes. This allows xradia software to use the GetMotorVariableXXXXX functions to check motor status.
+
+It is an error to return more or less than the specified number of variables names or to return them in the wrong order.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pstrVariableNames}]a pointer to an array of CString objects which will recieve the expected data. \item[{\em nNumAttributes}]the size of the allocated array. \end{description}
+\end{Desc}
+
+
+\begin{Desc}
+\item[Returns:]the number of CStrings returned. \end{Desc}
+
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\-20091201/\hyperlink{TangoInterface_8h}{TangoInterface.h}\item 
+/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\-20091201/\hyperlink{TangoInterface_8cpp}{TangoInterface.cpp}\end{CompactItemize}

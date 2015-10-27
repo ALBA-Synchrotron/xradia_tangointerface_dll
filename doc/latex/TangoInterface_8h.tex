@@ -1,0 +1,87 @@
+\hypertarget{TangoInterface_8h}{
+\section{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\-20091201/TangoInterface.h File Reference}
+\label{TangoInterface_8h}\index{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\-20091201/TangoInterface.h@{/homenfs/amilan/workspace/Xradia-dll/LastVersion/TangoInterface\_\-20091201/TangoInterface.h}}
+}
+
+
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{TangoInterface_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{CompactItemize}
+\item 
+class \hyperlink{classTangoInterface}{TangoInterface}
+\end{CompactItemize}
+\subsection*{Enumerations}
+\begin{CompactItemize}
+\item 
+enum \hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df5895}{TANGO\_\-ATTRIBUTES} \{ \par
+\hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df58952bfb5bacab2fb8adac5fea24deb94fef}{NEG\_\-LIMIT} =  0, 
+\hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df5895e5680034e53fb79da9445a56b52774ed}{POS\_\-LIMIT}, 
+\hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df58953a32f93ff061954504e42fc5cfcb1d52}{IN\_\-POS}, 
+\hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df5895d853c51c0c284231f7a3b7640763f058}{FOLLOWING\_\-ERROR}, 
+\par
+\hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df589599788d1f27bac42d0c7bac63026c5959}{ENABLED}, 
+\hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df5895b8a476105cd4aa2b5dbb6223bad8878b}{MOTOR\_\-POSITION}, 
+\hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df5895a1633da4d7554a30c3f0ba1a62c1284e}{SET\_\-VELO}, 
+\hyperlink{TangoInterface_8h_76084dde89360059bf6c314f19df589598914338f9b2ae18755a393bfccce8cb}{CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM}
+ \}
+\begin{CompactList}\small\item\em Tango interface. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df5895}{
+\index{TangoInterface.h@{TangoInterface.h}!TANGO\_\-ATTRIBUTES@{TANGO\_\-ATTRIBUTES}}
+\index{TANGO\_\-ATTRIBUTES@{TANGO\_\-ATTRIBUTES}!TangoInterface.h@{TangoInterface.h}}
+\subsubsection[TANGO\_\-ATTRIBUTES]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf TANGO\_\-ATTRIBUTES}}}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df5895}
+
+
+Tango interface. 
+
+One object will be used for contacting all Tango axes. The primary design of this class is to communicate with Tango motors. It also has the facility to communicate with any Tango variable for recording external data.
+
+Units: Assumed in all functions that the units of the passed in values are the same. Xradia software will have a conversion factor that will allow the Xradia software to use Engineering units (ex. mm, deg, eV) independent of the actual hardware. In all descriptions below, the units will be referred to generically as \char`\"{}counts\char`\"{}.
+
+Motor Identifier: The motor identifier is a freeform string (configured per motor) that contains all information necessary to connect to a particular hosted motor. The definition of this string is left to the implementor of this interface. \begin{Desc}
+\item[Enumerator: ]\par
+\begin{description}
+\index{NEG\_\-LIMIT@{NEG\_\-LIMIT}!TangoInterface.h@{TangoInterface.h}}\index{TangoInterface.h@{TangoInterface.h}!NEG\_\-LIMIT@{NEG\_\-LIMIT}}\item[{\em 
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df58952bfb5bacab2fb8adac5fea24deb94fef}{
+NEG\_\-LIMIT}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df58952bfb5bacab2fb8adac5fea24deb94fef}
+}]\index{POS\_\-LIMIT@{POS\_\-LIMIT}!TangoInterface.h@{TangoInterface.h}}\index{TangoInterface.h@{TangoInterface.h}!POS\_\-LIMIT@{POS\_\-LIMIT}}\item[{\em 
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df5895e5680034e53fb79da9445a56b52774ed}{
+POS\_\-LIMIT}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df5895e5680034e53fb79da9445a56b52774ed}
+}]\index{IN\_\-POS@{IN\_\-POS}!TangoInterface.h@{TangoInterface.h}}\index{TangoInterface.h@{TangoInterface.h}!IN\_\-POS@{IN\_\-POS}}\item[{\em 
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df58953a32f93ff061954504e42fc5cfcb1d52}{
+IN\_\-POS}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df58953a32f93ff061954504e42fc5cfcb1d52}
+}]\index{FOLLOWING\_\-ERROR@{FOLLOWING\_\-ERROR}!TangoInterface.h@{TangoInterface.h}}\index{TangoInterface.h@{TangoInterface.h}!FOLLOWING\_\-ERROR@{FOLLOWING\_\-ERROR}}\item[{\em 
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df5895d853c51c0c284231f7a3b7640763f058}{
+FOLLOWING\_\-ERROR}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df5895d853c51c0c284231f7a3b7640763f058}
+}]\index{ENABLED@{ENABLED}!TangoInterface.h@{TangoInterface.h}}\index{TangoInterface.h@{TangoInterface.h}!ENABLED@{ENABLED}}\item[{\em 
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df589599788d1f27bac42d0c7bac63026c5959}{
+ENABLED}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df589599788d1f27bac42d0c7bac63026c5959}
+}]\index{MOTOR\_\-POSITION@{MOTOR\_\-POSITION}!TangoInterface.h@{TangoInterface.h}}\index{TangoInterface.h@{TangoInterface.h}!MOTOR\_\-POSITION@{MOTOR\_\-POSITION}}\item[{\em 
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df5895b8a476105cd4aa2b5dbb6223bad8878b}{
+MOTOR\_\-POSITION}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df5895b8a476105cd4aa2b5dbb6223bad8878b}
+}]\index{SET\_\-VELO@{SET\_\-VELO}!TangoInterface.h@{TangoInterface.h}}\index{TangoInterface.h@{TangoInterface.h}!SET\_\-VELO@{SET\_\-VELO}}\item[{\em 
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df5895a1633da4d7554a30c3f0ba1a62c1284e}{
+SET\_\-VELO}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df5895a1633da4d7554a30c3f0ba1a62c1284e}
+}]\index{CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM@{CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM}!TangoInterface.h@{TangoInterface.h}}\index{TangoInterface.h@{TangoInterface.h}!CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM@{CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM}}\item[{\em 
+\hypertarget{TangoInterface_8h_76084dde89360059bf6c314f19df589598914338f9b2ae18755a393bfccce8cb}{
+CURRENT\_\-SIZE\_\-TANGO\_\-ATTRIBUTES\_\-ENUM}
+\label{TangoInterface_8h_76084dde89360059bf6c314f19df589598914338f9b2ae18755a393bfccce8cb}
+}]\end{description}
+\end{Desc}
+
