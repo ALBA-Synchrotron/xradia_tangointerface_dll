@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TangoInterface", "TangoInterface.vcproj", "{D3A087CF-DF66-473E-AB7D-146D4A860270}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImportingTangoInterface", "testsDLL\ImportingTangoInterface\ImportingTangoInterface.vcproj", "{100310C0-D8A2-4670-8470-09718145F870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3A087CF-DF66-473E-AB7D-146D4A860270}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3A087CF-DF66-473E-AB7D-146D4A860270}.Debug|Win32.Build.0 = Debug|Win32
+		{D3A087CF-DF66-473E-AB7D-146D4A860270}.Release|Win32.ActiveCfg = Release|Win32
+		{D3A087CF-DF66-473E-AB7D-146D4A860270}.Release|Win32.Build.0 = Release|Win32
+		{100310C0-D8A2-4670-8470-09718145F870}.Debug|Win32.ActiveCfg = Debug|Win32
+		{100310C0-D8A2-4670-8470-09718145F870}.Debug|Win32.Build.0 = Debug|Win32
+		{100310C0-D8A2-4670-8470-09718145F870}.Release|Win32.ActiveCfg = Release|Win32
+		{100310C0-D8A2-4670-8470-09718145F870}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
