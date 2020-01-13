@@ -208,8 +208,8 @@ bool TangoInterface::SetVariable(CString strCommand, CString strValue)
     try{
 		AttributeProxy attr(strCommand);
 		DeviceAttribute da;
-
-		da << strValue;
+		std::string stringValue(strValue);
+		da << stringValue;
         attr.write(da);
     }
 	catch(Tango::DevFailed &e)
